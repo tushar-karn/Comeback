@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/dilip/OneDrive/Desktop/Comeback",
-      "program": "c:/Users/dilip/OneDrive/Desktop/Comeback/build/Debug/outDebug",
+      "cwd": "c:/Users/dilip/OneDrive/Desktop/Comeback/Functions",
+      "program": "c:/Users/dilip/OneDrive/Desktop/Comeback/Functions/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
