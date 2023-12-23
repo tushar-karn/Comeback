@@ -1,19 +1,46 @@
+// #include<iostream>
+// using namespace std;
+// void findEvenOdd(int no )
+// {
+//     if (no%2==0)
+//     {
+//         cout<<"NO is EVEN ";
+//     }
+//     else{
+//         cout<<"NO IS ODD ";
+//     }
+// }
+// int main()
+// {
+//     int no;
+//     cin>>no;
+//     findEvenOdd(no);
+//     return 0;
+// }
+
+//  bitwise method ;
+
 #include<iostream>
 using namespace std;
-void findEvenOdd(int no )
+bool checkEvenOdd(int n)
 {
-    if (no%2==0)
+    if (n&1==1)
     {
-        cout<<"NO is EVEN ";
+        return false;
     }
-    else{
-        cout<<"NO IS ODD ";
-    }
+    return true;    
 }
 int main()
 {
-    int no;
-    cin>>no;
-    findEvenOdd(no);
+    int n;
+    cin>>n;
+    bool isEven = checkEvenOdd(n);
+    if (isEven)
+    {
+        cout<< n << " Is Even No ";
+    }
+    else{
+        cout<< n << " Is Odd No ";
+    }
     return 0;
 }

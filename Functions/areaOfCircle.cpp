@@ -1,13 +1,14 @@
 #include<iostream>
 using namespace std;
-void areaOfCircle(int radius){
-    float area = 3.14 * radius *radius;
-    cout<<area;
+float areaOfCircle(float radius){
+    float area = 3.1415 * radius *radius;
+    return area;
 }
 int main()
 {
-    int radius;
+    float radius;
     cin>>radius;
-    areaOfCircle(radius);
+    double area = areaOfCircle(radius);
+    cout<<"Area Of Circle Is "<<area;
     return 0;
 }
