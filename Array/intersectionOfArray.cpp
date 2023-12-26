@@ -1,5 +1,6 @@
 #include<iostream>
 #include<vector>
+#include<limits.h>
 using namespace std;
 int getIntrsection(vector<int>arr , vector<int>brr)
 {
@@ -10,6 +11,7 @@ int getIntrsection(vector<int>arr , vector<int>brr)
         {
             if (arr[i]==brr[j])
             {
+                brr[j]=INT_MIN;
                 ans.push_back(arr[i]);
             }
         }
